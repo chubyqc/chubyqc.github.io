@@ -80,16 +80,7 @@ header,
   height: 100%;
 }
 
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 1000px;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 850px) {
+@media (max-width: 850px) {
   html,
   body,
   header,
@@ -103,7 +94,6 @@ header,
   background-image: url("https://marie-moi.ca/mariage/arianeetjimmy/bg-arianeetjimmy.png");
 
   /* Center and scale the image nicely */
-  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
