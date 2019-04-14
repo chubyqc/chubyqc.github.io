@@ -80,6 +80,15 @@ header,
   height: 100%;
 }
 
+@media (min-width: 850px) and (max-width: 1200px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
 @media (max-width: 850px) {
   html,
   body,
