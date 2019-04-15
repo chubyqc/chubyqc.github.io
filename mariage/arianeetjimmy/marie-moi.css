@@ -114,6 +114,7 @@ header,
   /* Center and scale the image nicely */
   background-repeat: no-repeat;
   background-size: cover;
+  height: 912px;
 }
 
 .text-with-contrast {
