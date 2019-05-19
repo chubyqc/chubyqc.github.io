@@ -177,14 +177,35 @@
               </div>
               <div class="modal-body">
                 <form>
+                    <div class="form-group">
+                        <input type="radio" id="coming-yes" name="coming">
+                        <label for="coming-yes">Je serai présent au mariage.</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="radio" id="coming-no" name="coming">
+                      <label for="coming-no">Je ne serai pas au mariage mais je prendrai un gin tonic en pensant à vous.</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Nom des convives:</label>
+                        <textarea class="form-control" id="name" rows="2"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <label for="coming-yes">Allez-vous camper sur le site le soir du mariage?</label>
+                      <input type="radio" id="camping-yes" name="camping">
+                      <input type="radio" id="camping-no" name="camping">
+                    </div>
+                  <div class="form-group">
+                    <label for="song">Inscrivez ici une chanson qui vous convaincra de nous rejoindre sur la piste de danse:</label>
+                    <input type="text" class="form-control" id="song" placeholder="Ma toune!">
+                  </div>
+                  <div class="form-group">
+                    <label for="additionalInfo">Mentionnez ici toute information supplémentaire que vous jugez nécessaire, incluant des allergies ou intolérances alimentaires (avec le nom de la personne concernée):</label>
+                    <textarea class="form-control" id="name" rows="3"></textarea>
+                  </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputPassword">Password</label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                   </div>
                   <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="check">
@@ -194,7 +215,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                <button type="button" class="btn btn-primary">Confirmer</button>
+                <button type="button" class="btn btn-primary" onclick="mariemoi.confirm({}, 'from', 'to', 'subject');">Confirmer</button>
               </div>
             </div>
           </div>
