@@ -194,10 +194,9 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                <button type="button" class="btn btn-primary" onclick="mariemoi.confirm($('#confirmForm').serializeArray(), $('#inputEmail').val(), 'chuby.qc@gmail.com', 'Marie-moi.ca - Confirmation', function() {
-                        $('#confirmedDialog').on('hidden.bs.modal', function (e) {
-                            $('#confirmFormDialog').modal('hide');
-                        });
+                <button type="button" class="btn btn-primary" onclick="
+                   $('#confirmFormDialog').modal('hide');
+                   mariemoi.confirm($('#confirmForm').serializeArray(), $('#inputEmail').val(), 'chuby.qc@gmail.com', 'Marie-moi.ca - Confirmation', function() {
                         $('#confirmedDialog').modal('show');
                     });">Confirmer</button>
               </div>
