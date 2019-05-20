@@ -32,7 +32,10 @@ mariemoi = {
             Subject : subject,
             Body : JSON.stringify(answer)
         }).then(
-            message => callback(message)
+            message => function(message) {
+                callback && callback(message);
+                console.log(message);
+            }
         );
     }
 }
