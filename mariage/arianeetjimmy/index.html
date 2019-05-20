@@ -17,22 +17,6 @@
         <script>
             mariemoi.init('Chou', 'https://marie-moi.ca', 'dae42e5f-1b9e-46d3-885f-447619ea95f0');
             
-            /*
-            
-{
-           isComing: true,
-           names: ['name1', 'name2'],
-           sleeps: {
-               friday: false,
-               saturday: true,
-               sunday: true,
-               monday: false
-           },
-           song: 'Some dancing song',
-           moreInfo: 'more info left by the user'
-}
-            
-            */
         </script>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -178,33 +162,33 @@
               <div class="modal-body">
                 <form id="confirmForm">
                     <div class="form-group">
-                        <input type="radio" id="coming-yes" name="coming">
+                        <input type="radio" id="coming-yes" name="coming" value="coming>
                         <label for="coming-yes">Je serai présent au mariage.</label>
                     </div>
                     <div class="form-group">
-                      <input type="radio" id="coming-no" name="coming">
+                      <input type="radio" id="coming-no" name="coming" value="not-coming">
                       <label for="coming-no" style="display: inline;">Je ne serai pas au mariage mais je prendrai un gin tonic en pensant à vous.</label>
                     </div>
                     <div class="form-group">
                         <label for="name">Nom des convives:</label>
-                        <textarea class="form-control" id="name" rows="2"></textarea>
+                        <textarea class="form-control" id="name" rows="2" name="names"></textarea>
                     </div>
                     <div class="form-group">
                       <label for="coming-yes">Allez-vous camper sur le site le soir du mariage?</label>
-                      <input type="radio" id="camping-yes" name="camping">Oui
-                      <input type="radio" id="camping-no" name="camping">Non
+                      <input type="radio" id="camping-yes" name="camping" value="camping">Oui
+                      <input type="radio" id="camping-no" name="camping" value="not-camping">Non
                     </div>
                   <div class="form-group">
                     <label for="song">Inscrivez ici une chanson qui vous convaincra de nous rejoindre sur la piste de danse:</label>
-                    <input type="text" class="form-control" id="song" placeholder="Ma toune!">
+                    <input type="text" class="form-control" id="song" placeholder="Ma toune!" name="song">
                   </div>
                   <div class="form-group">
                     <label for="additionalInfo">Mentionnez ici toute information supplémentaire que vous jugez nécessaire, incluant des allergies ou intolérances alimentaires (avec le nom de la personne concernée):</label>
-                    <textarea class="form-control" id="name" rows="3"></textarea>
+                    <textarea class="form-control" id="name" rows="3" name="more-info"></textarea>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Adresse courriel:</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="" name="emailAddress">
                   </div>
                 </form>
               </div>
