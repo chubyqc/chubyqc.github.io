@@ -31,8 +31,7 @@ mariemoi = {
             From : from || to,
             Subject : subject,
             Body : JSON.stringify(answer)
-        }).then(
-            message => function(message) {
+        }).then(function(message) {
                 callback && callback(message);
                 console.log(message);
             }
