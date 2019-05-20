@@ -24,7 +24,7 @@ mariemoi = {
      *      moreInfo: 'more info left by the user'
      *  }
      */
-    confirm(answer, from, to, subject) {
+    confirm(answer, from, to, subject, callback) {
         Email.send({
             SecureToken : this.emailToken,
             To : to,
@@ -32,7 +32,7 @@ mariemoi = {
             Subject : subject,
             Body : JSON.stringify(answer)
         }).then(
-            message => console.log(message)
+            message => callback(message)
         );
     }
 }
