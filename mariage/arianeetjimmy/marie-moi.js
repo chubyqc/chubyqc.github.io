@@ -28,7 +28,7 @@ mariemoi = {
         Email.send({
             SecureToken : this.emailToken,
             To : to,
-            From : from || to,
+            From : from,
             Subject : subject,
             Body : JSON.stringify(answer)
         }).then(function(message) {
