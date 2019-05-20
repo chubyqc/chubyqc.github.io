@@ -194,10 +194,24 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                <button type="button" class="btn btn-primary" onclick="mariemoi.confirm($('#confirmForm').serializeArray(), $('#inputEmail').val(), 'chuby.qc@gmail.com', 'Marie-moi.ca - Confirmation');">Confirmer</button>
+                <button type="button" class="btn btn-primary" onclick="mariemoi.confirm($('#confirmForm').serializeArray(), $('#inputEmail').val(), 'chuby.qc@gmail.com', 'Marie-moi.ca - Confirmation', function() {
+                        
+                    });">Confirmer</button>
               </div>
             </div>
           </div>
+            <div class="modal" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <p>Confirmé! Merci.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal" onclick="$('#confirmFormDialog').modal('hide');">OK</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
     </body>
 </html>
