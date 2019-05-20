@@ -25,6 +25,13 @@ mariemoi = {
      *  }
      */
     confirm(answer, from, to, subject, callback) {
+        if (from == null || from.trim().length == 0) {
+            if (Array.isArray(to)) {
+                from = to[0];
+            } else {
+                from = to;
+            }
+        }
         Email.send({
             SecureToken : this.emailToken,
             To : to,
