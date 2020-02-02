@@ -92,10 +92,9 @@ html,
 body,
 header,
 .view {
-  height: 64%;
+  height: 100%;
   font-size: 1.3rem;
   font-family: 'Lora', serif;
-  background-position-y: -90px;
 }
 
 @media (min-width: 850px) and (max-width: 1200px) {
@@ -136,6 +135,8 @@ header,
   /* Center and scale the image nicely */
   background-repeat: no-repeat;
   background-size: cover;
+  height: 64%;
+  background-position-y: -90px;
 }
 
 @media (min-width: 1200px) {
