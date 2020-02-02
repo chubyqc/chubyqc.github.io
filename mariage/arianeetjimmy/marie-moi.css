@@ -2,6 +2,7 @@
   max-width: 960px;
   font-family: 'Alex Brush', cursive;
   font-size: 2.5rem;
+  line-height: normal !important;
 }
 
 .mariage-img {
