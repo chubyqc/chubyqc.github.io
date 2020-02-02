@@ -1,5 +1,7 @@
 .container {
   max-width: 960px;
+  font-family: 'Alex Brush', cursive;
+  font-size: 2.5rem;
 }
 
 .mariage-img {
@@ -22,8 +24,8 @@
 .site-header a {
   color: white;
   transition: ease-in-out color .15s;
-  font-weight: bold;
-  font-size: 25px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 .site-header a:hover {
   color: #fff;
