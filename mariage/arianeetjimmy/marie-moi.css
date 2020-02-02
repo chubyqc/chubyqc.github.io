@@ -82,7 +82,7 @@
 .display-4 {
   font-size: 6.5rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 0.54;
   font-family: 'Alex Brush', cursive;
 }
 
@@ -137,7 +137,7 @@ header,
   background-size: cover;
   height: 64%;
   background-position-y: -90px;
-  padding-top: 24%;
+  padding-top: 26%;
 }
 
 @media (min-width: 1200px) {
