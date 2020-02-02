@@ -91,6 +91,10 @@
   margin-bottom: 25px;
 }
 
+.display-5 {
+  font-family: 'Alex Brush', cursive;
+}
+
 .overflow-hidden { overflow: hidden; }
 
 html,
