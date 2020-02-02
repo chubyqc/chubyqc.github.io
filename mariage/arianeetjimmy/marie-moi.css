@@ -93,6 +93,7 @@ header,
 .view {
   height: 100%;
   font-size: 1.3rem;
+  font-family: 'Lora', serif;
 }
 
 @media (min-width: 850px) and (max-width: 1200px) {
@@ -119,7 +120,6 @@ header,
   header,
   .view {
     height: 285px;
-    font-family: 'Lora', serif;
   }
   
   .display-4 {
