@@ -92,6 +92,7 @@ body,
 header,
 .view {
   height: 100%;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 850px) and (max-width: 1200px) {
