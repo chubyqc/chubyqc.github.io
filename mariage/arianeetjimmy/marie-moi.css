@@ -92,9 +92,10 @@ html,
 body,
 header,
 .view {
-  height: 100%;
+  height: 64%;
   font-size: 1.3rem;
   font-family: 'Lora', serif;
+  background-position-y: -90px;
 }
 
 @media (min-width: 850px) and (max-width: 1200px) {
