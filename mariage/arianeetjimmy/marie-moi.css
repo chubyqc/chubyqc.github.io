@@ -83,6 +83,7 @@
   font-size: 6.5rem;
   font-weight: 300;
   line-height: 1.2;
+  font-family: 'Alex Brush', cursive;
 }
 
 .overflow-hidden { overflow: hidden; }
