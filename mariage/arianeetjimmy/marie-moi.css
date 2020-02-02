@@ -94,6 +94,7 @@
 .display-5 {
   font-family: 'Alex Brush', cursive;
   font-size: 4rem;
+  margin-top: 35px;
 }
 
 .overflow-hidden { overflow: hidden; }
