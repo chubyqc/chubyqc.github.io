@@ -75,7 +75,7 @@
   .col-md-5 {
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
-    max-width: 50.666667%;
+    max-width: 60%;
   }
 }
 
@@ -137,7 +137,7 @@ header,
   background-size: cover;
   height: 64%;
   background-position-y: -90px;
-  padding-top: 320px;
+  padding-top: 24%;
 }
 
 @media (min-width: 1200px) {
