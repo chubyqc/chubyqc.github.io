@@ -137,6 +137,7 @@ header,
   background-size: cover;
   height: 64%;
   background-position-y: -90px;
+  padding-top: 320px;
 }
 
 @media (min-width: 1200px) {
