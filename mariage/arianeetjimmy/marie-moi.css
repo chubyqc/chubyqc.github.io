@@ -124,11 +124,9 @@ header,
 }
 
 @media (min-width: 850px) and (max-width: 1200px) {
-  html,
-  body,
-  header,
   .view {
     height: 525px;
+    background-position-y: -55px;
   }
 }
 
