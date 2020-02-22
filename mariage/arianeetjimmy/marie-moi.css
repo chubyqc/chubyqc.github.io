@@ -128,16 +128,15 @@ header,
   body,
   header,
   .view {
-    height: 600px;
+    height: 525px;
   }
 }
 
 @media (max-width: 850px) {
-  html,
-  body,
-  header,
   .view {
-    height: 600px;
+    height: 400px;
+    background-position-y: -20px;
+    padding-top: 37%;
   }
 }
 
