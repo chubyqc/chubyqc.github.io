@@ -135,6 +135,7 @@ header,
   header,
   .view {
     height: 285px;
+    background-position-y: -90px;
   }
   
   .display-4 {
