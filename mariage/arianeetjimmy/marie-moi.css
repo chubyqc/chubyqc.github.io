@@ -5,12 +5,8 @@
   line-height: normal !important;
 }
 
-.mariage-img {
-  
-}
-
-.informations-img {
-  
+.mariage-img, .questions-img, .informations-img {
+  max-width: 100%;
 }
 
 /*
