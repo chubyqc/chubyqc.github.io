@@ -177,3 +177,8 @@ header,
 .info-text {
     color: rgb(241, 171, 0);
 }
+
+@media (min-width: 764px)
+.modal-dialog {
+    max-width: 750px;
+}
